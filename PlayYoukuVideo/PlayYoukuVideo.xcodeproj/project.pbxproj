@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714332241BA161EF00DD348D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714332231BA161EF00DD348D /* main.m */; };
+		714332271BA161EF00DD348D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714332261BA161EF00DD348D /* AppDelegate.m */; };
+		7143322A1BA161EF00DD348D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714332291BA161EF00DD348D /* ViewController.m */; };
+		7143322D1BA161EF00DD348D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7143322B1BA161EF00DD348D /* Main.storyboard */; };
+		7143322F1BA161EF00DD348D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7143322E1BA161EF00DD348D /* Images.xcassets */; };
+		714332321BA161EF00DD348D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714332301BA161EF00DD348D /* LaunchScreen.xib */; };
+		7143323E1BA161EF00DD348D /* PlayYoukuVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7143323D1BA161EF00DD348D /* PlayYoukuVideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		714332381BA161EF00DD348D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714332161BA161EF00DD348D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7143321D1BA161EF00DD348D;
+			remoteInfo = PlayYoukuVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7143321E1BA161EF00DD348D /* PlayYoukuVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayYoukuVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714332221BA161EF00DD348D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714332231BA161EF00DD348D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		714332251BA161EF00DD348D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		714332261BA161EF00DD348D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		714332281BA161EF00DD348D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		714332291BA161EF00DD348D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7143322C1BA161EF00DD348D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7143322E1BA161EF00DD348D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		714332311BA161EF00DD348D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		714332371BA161EF00DD348D /* PlayYoukuVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayYoukuVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7143323C1BA161EF00DD348D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7143323D1BA161EF00DD348D /* PlayYoukuVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayYoukuVideoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7143321B1BA161EF00DD348D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714332341BA161EF00DD348D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714332151BA161EF00DD348D = {
+			isa = PBXGroup;
+			children = (
+				714332201BA161EF00DD348D /* PlayYoukuVideo */,
+				7143323A1BA161EF00DD348D /* PlayYoukuVideoTests */,
+				7143321F1BA161EF00DD348D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7143321F1BA161EF00DD348D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7143321E1BA161EF00DD348D /* PlayYoukuVideo.app */,
+				714332371BA161EF00DD348D /* PlayYoukuVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714332201BA161EF00DD348D /* PlayYoukuVideo */ = {
+			isa = PBXGroup;
+			children = (
+				714332251BA161EF00DD348D /* AppDelegate.h */,
+				714332261BA161EF00DD348D /* AppDelegate.m */,
+				714332281BA161EF00DD348D /* ViewController.h */,
+				714332291BA161EF00DD348D /* ViewController.m */,
+				7143322B1BA161EF00DD348D /* Main.storyboard */,
+				7143322E1BA161EF00DD348D /* Images.xcassets */,
+				714332301BA161EF00DD348D /* LaunchScreen.xib */,
+				714332211BA161EF00DD348D /* Supporting Files */,
+			);
+			path = PlayYoukuVideo;
+			sourceTree = "<group>";
+		};
+		714332211BA161EF00DD348D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714332221BA161EF00DD348D /* Info.plist */,
+				714332231BA161EF00DD348D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7143323A1BA161EF00DD348D /* PlayYoukuVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7143323D1BA161EF00DD348D /* PlayYoukuVideoTests.m */,
+				7143323B1BA161EF00DD348D /* Supporting Files */,
+			);
+			path = PlayYoukuVideoTests;
+			sourceTree = "<group>";
+		};
+		7143323B1BA161EF00DD348D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7143323C1BA161EF00DD348D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7143321D1BA161EF00DD348D /* PlayYoukuVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714332411BA161EF00DD348D /* Build configuration list for PBXNativeTarget "PlayYoukuVideo" */;
+			buildPhases = (
+				7143321A1BA161EF00DD348D /* Sources */,
+				7143321B1BA161EF00DD348D /* Frameworks */,
+				7143321C1BA161EF00DD348D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayYoukuVideo;
+			productName = PlayYoukuVideo;
+			productReference = 7143321E1BA161EF00DD348D /* PlayYoukuVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		714332361BA161EF00DD348D /* PlayYoukuVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714332441BA161EF00DD348D /* Build configuration list for PBXNativeTarget "PlayYoukuVideoTests" */;
+			buildPhases = (
+				714332331BA161EF00DD348D /* Sources */,
+				714332341BA161EF00DD348D /* Frameworks */,
+				714332351BA161EF00DD348D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714332391BA161EF00DD348D /* PBXTargetDependency */,
+			);
+			name = PlayYoukuVideoTests;
+			productName = PlayYoukuVideoTests;
+			productReference = 714332371BA161EF00DD348D /* PlayYoukuVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714332161BA161EF00DD348D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = yumlive0909;
+				TargetAttributes = {
+					7143321D1BA161EF00DD348D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					714332361BA161EF00DD348D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7143321D1BA161EF00DD348D;
+					};
+				};
+			};
+			buildConfigurationList = 714332191BA161EF00DD348D /* Build configuration list for PBXProject "PlayYoukuVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714332151BA161EF00DD348D;
+			productRefGroup = 7143321F1BA161EF00DD348D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7143321D1BA161EF00DD348D /* PlayYoukuVideo */,
+				714332361BA161EF00DD348D /* PlayYoukuVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7143321C1BA161EF00DD348D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7143322D1BA161EF00DD348D /* Main.storyboard in Resources */,
+				714332321BA161EF00DD348D /* LaunchScreen.xib in Resources */,
+				7143322F1BA161EF00DD348D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714332351BA161EF00DD348D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7143321A1BA161EF00DD348D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7143322A1BA161EF00DD348D /* ViewController.m in Sources */,
+				714332271BA161EF00DD348D /* AppDelegate.m in Sources */,
+				714332241BA161EF00DD348D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714332331BA161EF00DD348D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7143323E1BA161EF00DD348D /* PlayYoukuVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		714332391BA161EF00DD348D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7143321D1BA161EF00DD348D /* PlayYoukuVideo */;
+			targetProxy = 714332381BA161EF00DD348D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7143322B1BA161EF00DD348D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7143322C1BA161EF00DD348D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		714332301BA161EF00DD348D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714332311BA161EF00DD348D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7143323F1BA161EF00DD348D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		714332401BA161EF00DD348D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714332421BA161EF00DD348D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayYoukuVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		714332431BA161EF00DD348D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayYoukuVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		714332451BA161EF00DD348D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayYoukuVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayYoukuVideo.app/PlayYoukuVideo";
+			};
+			name = Debug;
+		};
+		714332461BA161EF00DD348D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayYoukuVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayYoukuVideo.app/PlayYoukuVideo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714332191BA161EF00DD348D /* Build configuration list for PBXProject "PlayYoukuVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7143323F1BA161EF00DD348D /* Debug */,
+				714332401BA161EF00DD348D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714332411BA161EF00DD348D /* Build configuration list for PBXNativeTarget "PlayYoukuVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714332421BA161EF00DD348D /* Debug */,
+				714332431BA161EF00DD348D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		714332441BA161EF00DD348D /* Build configuration list for PBXNativeTarget "PlayYoukuVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714332451BA161EF00DD348D /* Debug */,
+				714332461BA161EF00DD348D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714332161BA161EF00DD348D /* Project object */;
+}
