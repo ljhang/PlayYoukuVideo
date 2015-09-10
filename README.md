@@ -21,7 +21,7 @@ vid: '替换成优酷视频ID'
 });
 </script>
 
-首先，需要有：client_id－－优酷开放平台创建应用的client_id；你也可以设置styleid的类型；好了，接着，需要有vid: '优酷视频ID'；再接着解析你的视频URL地址，for example,(http://v.youku.com/v_show/id_XNDcwMDc3MTk2.html?from=y1.7-2)－－拿到id_后面的那串东西。。。
+首先，需要有：client_id－－优酷开放平台创建应用的client_id；你也可以设置styleid的类型；好了，接着，需要有vid: '优酷视频ID'；再接着解析你的视频URL地址，for example,(http://v.youku.com/v_show/id_XNDcwMDc3MTk2.html?from=y1.7-2) --拿到id_后面的那串东西。。。
 
 OK，最后就是通过webview的方法 - (void)loadHTMLString:(NSString *)string baseURL:(NSURL *)baseURL; 来加载上面那一大串替代后的JS代码。与此同时也设置一下上面JS里style的width和heigh以适配不同的机型。最后效果如下：
 ![](https://github.com/ljhang/PlayYoukuVideo/raw/master/video.gif) 
